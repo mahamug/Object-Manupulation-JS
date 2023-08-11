@@ -21,7 +21,7 @@ const playerBballColor = {
 for(const key in ballColor){
  console.log(key,":",ballColor[key])
 }
-//neechy wala solution => try to use reducer but sure nhi hn reduce ko use krne ka haq ada kiya ya na 
+//neechy wala solution => try to use reduce but sure nhi hn reduce ko use krne ka haq ada kiya ya na 
 
   const arr = [playerAballColors,playerBballColor]
   const red = arr.reduce(
